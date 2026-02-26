@@ -1,0 +1,119 @@
+{
+  "color": {
+    "text": {
+      "secondary": {
+        "value": "{color.gray.1100}",
+        "type": "color",
+        "description": "Lowest contrast text. (PG_CHANGED)"
+      }
+    },
+    "bg": {
+      "subtle-secondary-level-0": {
+        "value": "{color.theme.bg}",
+        "type": "color",
+        "description": "Lower contrast surfaces.\nElevation: Level 0."
+      },
+      "subtle-primary": {
+        "value": "{color.gray.500}",
+        "type": "color",
+        "description": "Medium contrast surfaces.\nElevation: Default (Level 2). (PG_CHANGED)"
+      },
+      "subtle-tertiary": {
+        "value": "{color.yellow.1400}",
+        "type": "color",
+        "description": "Low contrast surfaces.\nElevation: Default (Level 1). (PG_CHANGED)"
+      },
+      "canvas": {
+        "default-level-1": {
+          "value": "{color.gray.300}",
+          "type": "color",
+          "description": "Default global background for the user interface.\nElevation: Level 1."
+        }
+      },
+      "badge": {
+        "accent": {
+          "value": "{color.alpha.green.500}",
+          "type": "color",
+          "description": "Badge accent background colour"
+        },
+        "info": {
+          "value": "{color.alpha.blue.500}",
+          "type": "color",
+          "description": "Badge info background colour"
+        },
+        "default": {
+          "value": "{color.alpha.gray.500}",
+          "type": "color",
+          "description": "Badge default background colour"
+        }
+      },
+      "action": {
+        "primary": {
+          "rest": {
+            "value": "{color.yellow.800}",
+            "type": "color",
+            "description": "Background colour for primary actions. State: Rest. (PG_CHANGED)"
+          },
+          "hovered": {
+            "value": "{color.yellow.500}",
+            "type": "color",
+            "description": "Background colour for primary actions. State: Hover. (PG_CHANGED)"
+          },
+          "pressed": {
+            "value": "{color.yellow.1000}",
+            "type": "color",
+            "description": "Background colour for primary actions. State: Pressed. (PG_CHANGED)"
+          }
+        }
+      }
+    },
+    "border":{
+      "interactive": {
+        "primary": {
+          "value": "{color.gray.800}",
+          "type": "color",
+          "description": "Default contrast for accessible interactive element borders. State: Rest. (PG_CHANGED)"
+        },
+        "secondary": {
+          "value": "{color.gray.600}",
+          "type": "color",
+          "description": "⚠️ Lowest contrast for non-accessible interactive element borders, <3:1. Only use for non-essential borders. Do not rely exclusively on them. State: Rest. (PG_CHANGED)"
+        },
+        "hovered": {
+          "value": "{color.gray.1100}",
+          "type": "color",
+          "description": "Default contrast for accessible interactive element borders. State: Hover. (PG_CHANGED)"
+        }
+      }
+    },
+    "gradient": {
+      "action": {
+        "stop1": {
+          "value": "{color.yellow.600}",
+          "type": "color",
+          "description": "Background gradient stop for super and send buttons (PG_CHANGED)"
+        },
+        "stop2": {
+          "value": "{color.yellow.800}",
+          "type": "color",
+          "description": "Background gradient stop for super and send buttons (PG_CHANGED)"
+        },
+        "stop3": {
+          "value": "{color.yellow.900}",
+          "type": "color",
+          "description": "Background gradient stop for super and send buttons (PG_CHANGED)"
+        },
+        "stop4": {
+          "value": "{color.yellow.1000}",
+          "type": "color",
+          "description": "Background gradient stop for super and send buttons (PG_CHANGED)"
+        },
+        "linear": {
+          "value": "linear-gradient(180deg, {color.gradient.action.stop1} 0%, {color.gradient.action.stop2} 33%, {color.gradient.action.stop3} 66%, {color.gradient.action.stop4} 100%)",
+          "type": "color",
+          "description": "Intended for super and send buttons. References gradient/action/stop1 -4"
+        }
+      }
+    }
+  }
+}

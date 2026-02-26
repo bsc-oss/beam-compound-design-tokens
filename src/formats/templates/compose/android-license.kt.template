@@ -1,0 +1,8 @@
+/*
+ * Copyright <%= new Date().getFullYear().toString() %> Belgian Secure Communications (BSC)
+ * Copyright (c) <%= new Date().getFullYear().toString() %> Element Creations Ltd.
+ *
+ * SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-Element-Commercial.
+ * Please see LICENSE files in the repository root for full details.
+ * Modified by Belgian Secure Communications for Beam application on <%= new Date().toISOString().split('T')[0] %>
+ */
