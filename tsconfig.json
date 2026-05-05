@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "preserve",
+    "moduleResolution": "bundler",
+    "target": "esnext",
+    "lib": ["ES2022", "DOM"],
+    "strict": true,
+    "sourceMap": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "outDir": "./dist",
+    "typeRoots": ["node_modules/@types"]
+  },
+  "include": ["src/**/*.ts", "./*.ts"],
+  "exclude": ["node_modules", "assets"]
+}
