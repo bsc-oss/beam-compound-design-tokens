@@ -1,0 +1,13 @@
+{
+  "tokenSetOrder": [
+    "cross-platform",
+    "platform-android",
+    "platform-ios",
+    "platform-web",
+    "theme-light",
+    "theme-dark",
+    "theme-semantics-light",
+    "theme-semantics-dark",
+    "theme-semantics"
+  ]
+}
